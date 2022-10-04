@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.display-none {
+   display: none;
+}
+  
+  h1 {
+    text-align: center;
+    font-family: Helvetica;
+    letter-spacing: .2rem;
+  }
+
+  a {
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #000;
+    font-family: Helvetica;
+  }
+  
+  /* MENU */
+  
+  #menu-navegacao {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      padding: 0rem 1rem; 
+      opacity: .95;
+      height: 3.5rem;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+  }
+  
+  #menu-navegacao li {
+    list-style: none;
+    margin: 1rem;
+  }
+  
+  #menu-navegacao a {
+      text-decoration: none;
+      list-style: none;
+      color: rgb(47, 47, 47);
+      font-weight: 500;
+  }
+  
+  .nav-itens:hover {
+      opacity: .8;
+  }
+  
+  
+
+/*HERO*/
+
+
+#chamada {
+    background-image: linear-gradient(rgba(104, 144, 68, 0.866), rgba(138, 162, 117, 0.866)),
+    url("../img/fca-main.jpg");
+    object-fit: cover;
+    height: calc(70vh - 2.5rem); 
+    background-position: bottom right;
+    text-align: center;
+}
+
+#chamada img {
+    width: 5rem;
+    padding: 10rem 2rem 0rem 0rem;
+}
+
+#chamada h1 {
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+ /*COMUNICADOS*/
+
+ 
+ .comunicados-div {
+    padding: 0rem 5rem;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .quadros {
+    height: 60vh;
+    border: 1px solid rgb(188, 185, 185);
+    width: 100%;
+    display: inline-block;
+    margin: 2rem 2rem 0rem 2rem;
+    box-shadow: 2px 2px #eeebeb;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+ }
+
+ .quadros-img {
+    object-fit:cover;
+    height: 35vh;
+    width: 100%;     
+ }
+
+ .quadros img {
+    width: 100%;
+ }
+
+ .um {
+    background-image: url("../img/fca-main.jpg");
+ }
+
+ .dois {
+    background-image: url("../img/Eventos/abaveMaio.png");
+ }
+
+ .tres {
+    background-image: url("../img/Eventos/abavePisa.jpg");
+ }
+
+ .quatro {
+    background-image: url("../img/Eventos/almocoGratisSite.jpg");
+ }
+
+ .cinco {
+    background-image: url("../img/Eventos/cartazAtlas.png");
+ }
+
+ .seis {
+    background-image: url("../img/Eventos/equidadeGenero.jpg");
+ }
+
+ .sete {
+    background-image: url("../img/Eventos/reuniãoPrefeitura.jpg");
+ }
+
+ .oito {
+    background-image: url("../img/Eventos/politicasEnsinoSuperior.jpg");
+ }
+
+ .nove {
+    background-image: url("../img/Eventos/diasporaNetworks.png");
+ }
+
+ 
+
+ .quadros-info {
+    padding: 1rem;
+ }
+
+ .quadros-p {
+    padding-top: 1rem;
+ }
+
+ #comunicados button {
+    margin: 5rem auto;
+    display: block;
+    padding: .75rem 1.5rem;
+    border-radius: 3px;
+    font-family: Helvetica;
+    font-size: 1rem;
+    border:rgb(188, 185, 185) 1px solid;
+ }
+
+
+
+/*FOOTER*/
+
+footer {
+    height: 30vh;
+    background-color: rgb(86, 112, 53);
+    display: flex;
+    justify-content: space-around;
+}
+
+#social {
+    /* border: 1px red solid; */
+    padding: 3rem 3rem;
+}
+
+.icone {
+    color: #fff;
+    margin: 2rem;
+}
+
+footer h3, footer p {
+   font-family: Helvetica;
+   color: #fff;
+}
+
+footer h3 {
+   margin: 2rem 0rem 0.5rem 0rem;
+   font-weight: 800;
+}
+
+footer p {
+   line-height: 1.5rem;
+   letter-spacing: .1rem;
+}
+
+
+
+/*PÁGINA INSTITUCIONAL*/
+
+#main-institucional {
+   padding: 7rem 8rem 2rem 8rem;
+   font-family: Helvetica;
+   background-color: #f6f6f6;
+}
+
+#main-institucional h2 {
+   color:rgba(104, 144, 68, 0.866);
+   margin-bottom: 1rem;
+   font-weight: 600;
+   text-align: center;
+   font-family: Helvetica;
+   letter-spacing: .1rem;
+}
+
+.institucional-card {
+   padding: 1.5rem;
+   background-color: #fff;
+   border-radius: 5px;
+   margin-top: 2rem;
+}
+
+.institucional-card p {
+   font-family: Helvetica;
+}
+
+.institucional-paragrafos p {
+   margin-bottom: 1rem;
+}
+
+
+
+/*PÁGINA EQUIPES*/
+
+.card-row {
+   display: flex;
+}
+
+#main-equipe {
+   padding: 7rem 8rem 2rem 8rem;
+   font-family: Helvetica;
+   background-color: #f6f6f6;
+}
+
+.main-card {
+   padding: 1.5rem;
+   background-color: #fff;
+   border-radius: 5px;
+   margin: 2rem;
+   text-align: center;
+   width: 30vw;
+}
+
+.main-card img {
+   width: 7rem;
+   margin-bottom: 1rem;
+   border: 1px solid rgb(197, 195, 195);
+   
+}
+
+.main-card p {
+   margin-bottom: 1rem;
+}
+
+.main-card a {
+   color: rgb(67, 109, 39);
+}
+
+.email {
+   font-style: italic;
+}
+
+#main-equipe h2 {
+   text-align: center;
+   color:rgb(67, 109, 39);
+}
+
+
+/*PÁGINA DE PESQUISA*/
+
+#main-pesquisa {
+   padding: 7rem 8rem 2rem 8rem;
+   font-family: Helvetica;
+   background-color: #f6f6f6;
+   height: 52vh;
+}
+
+#main-pesquisa h2 {
+   text-align: center;
+   color:rgb(67, 109, 39);
+   margin-bottom: 5rem;
+}
+
+.a, .b, .c, .d {
+   background-image: linear-gradient(rgba(129, 167, 96, 0.582), rgba(129, 167, 96, 0.582)),
+   url("../img/fca-main.jpg");
+   object-fit: cover;
+   background-position: bottom right;
+   text-align: center;
+}
+
+.pesquisa-card {
+   padding: 3rem;
+   border-radius: 5px;
+   margin: 2rem;
+   width: 30vw;
+   text-align: center;
+   color: #fff;
+}

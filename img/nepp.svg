@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW X7 -->
+
+<svg
+   xml:space="preserve"
+   width="400mm"
+   height="300mm"
+   version="1.1"
+   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+   viewBox="0 0 40000 30000"
+   id="svg23"
+   sodipodi:docname="nepp.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview25"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:document-units="mm"
+   showgrid="false"
+   inkscape:zoom="0.57414583"
+   inkscape:cx="755.90551"
+   inkscape:cy="566.05827"
+   inkscape:window-width="1600"
+   inkscape:window-height="837"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Camada_x0020_1" />
+ <defs
+   id="defs4">
+  <style
+   type="text/css"
+   id="style2">
+   <![CDATA[
+    .str0 {stroke:#D2D3D5;stroke-width:7.62}
+    .fil1 {fill:none}
+    .fil0 {fill:#60650E}
+   ]]>
+  </style>
+ </defs>
+ <g
+   id="Camada_x0020_1"
+   inkscape:label="Camada 1">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  <g
+   id="_323945880">
+   <g
+   id="g17">
+    <path
+   class="fil0"
+   d="M19889 1553c2167,0 4132,861 5573,2259 -485,370 -1727,1672 -2762,2526 -700,577 -1328,795 -2066,1079 -811,311 -1967,110 -2542,143 -2166,127 -4022,1980 -4022,4201 0,5658 8320,4765 8223,0 -36,-1755 88,-2797 632,-3685 140,-228 450,-941 1072,-1725 407,-512 1145,-1275 1760,-1788 76,-63 162,-118 249,-168 1178,1394 1888,3196 1888,5163 0,4422 -3584,8006 -8005,8006 -4421,0 -8005,-3584 -8005,-8006 0,-4421 3584,-8005 8005,-8005z"
+   id="path7" />
+    <path
+   class="fil0"
+   d="M3034 19304l2285 0 0 764c1574,-1623 5902,-470 5902,2400l0 4210 -2524 0 0 -4249c0,-1042 -2154,-1709 -3139,-50l0 4299 -2524 0 0 -7374z"
+   id="path9" />
+    <path
+   class="fil0"
+   d="M17003 18939c1627,0 3056,748 3867,1875l-1086 1279c-612,-1168 -3989,-1843 -4259,10l3269 671c117,24 116,515 0,535l-3269 671c270,1854 3647,1178 4259,10l1026 1209c-821,1080 -2219,1793 -3807,1793 -2527,0 -4576,-1803 -4576,-4027 0,-2223 2049,-4026 4576,-4026z"
+   id="path11" />
+    <path
+   class="fil0"
+   d="M21566 19416l1770 89c6527,-2418 8016,7250 754,6162l0 2780 -2524 0 0 -9031zm2674 1539c3173,-668 2809,3807 -113,3133 0,0 38,1 0,0l0 -3110c38,-1 0,0 113,-23z"
+   id="path13" />
+    <path
+   class="fil0"
+   d="M29614 19416l1771 89c6527,-2418 8015,7250 753,6162l0 2780 -2524 0 0 -9031zm2675 1539c3172,-668 2808,3807 -114,3133 0,0 38,1 0,0l0 -3110c38,-1 0,0 114,-23z"
+   id="path15" />
+   </g>
+   <polygon
+   class="fil1 str0"
+   points="0,0 40000,0 40000,30000 0,30000 "
+   id="polygon19" />
+  </g>
+ </g>
+</svg>
