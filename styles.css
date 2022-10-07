@@ -8,6 +8,21 @@
    display: none;
 }
   
+.box-superior {
+   background-image: linear-gradient(rgba(64, 105, 29, 0.9), rgba(138, 162, 117, 0.866)),
+    url("../img/fca-main.jpg");
+    object-fit: cover;
+    height: calc(40vh - 2.5rem); 
+    background-position: bottom right;
+    text-align: center;
+}
+
+.titulo {
+   padding-top: 10rem;
+   font-size: 2rem;
+   color: rgb(64, 62, 62);
+}
+
   h1 {
     text-align: center;
     font-family: Helvetica;
@@ -67,19 +82,19 @@
     text-align: center;
 }
 
-#logo-unicamp {
+.logo-unicamp {
     width: 5rem;
     padding: 10rem 2rem 0rem 0rem;
 }
 
-#logo-nepp {
+.logo-nepp {
    width: 7rem;
 }
 
 #chamada h1 {
     padding-top: 2rem;
-    font-size: 2.5rem;
-    color: #fff;
+    font-size: 1.7rem;
+    color: rgb(64, 62, 62);
 }
 
  /*COMUNICADOS*/
@@ -92,25 +107,21 @@
  }
 
  .quadros {
-    height: 60vh;
+    max-height: 60vh;
     border: 1px solid rgb(188, 185, 185);
-    width: 100%;
-    display: inline-block;
-    margin: 2rem 2rem 0rem 2rem;
+    margin: 2rem 2.5rem 0rem 2.5rem;
     box-shadow: 2px 2px #eeebeb;
     border-radius: 5px;
     background-color: #f6f6f6;
  }
 
- .quadros-img {
+ .quadros img {
     object-fit:cover;
-    height: 35vh;
-    width: 100%;     
+    height: 30vh;
+    width:100%;
  }
 
- .quadros img {
-    width: 100%;
- }
+ 
 
  .um {
     background-image: url("../img/fca-main.jpg");
@@ -340,7 +351,6 @@ footer p {
    border-radius: 5px;
    margin: 2rem auto;
    width: 65vw;
-   
 }
 
 .card-projetos h3 {
@@ -364,22 +374,34 @@ footer p {
 
 /*TESTE*/
 
+
 .blogs {
-   width: 30vw;
-   margin: 5rem auto;
-   /* border: red 1px solid; */
+   padding: 0rem 3rem;
+   font-family: Helvetica;
 }
+
 
 .blogs-center {
    display: flex;
    justify-content: space-around;
+   margin:3rem 0;
 }
 
 .blog {
-   border: green 1px solid;
-   margin: 2rem;
+   border: lightgrey 1px solid;
+   border-radius: .2rem;
+   box-shadow: 1px 1px rgb(219, 216, 216);   
+   background-color: #f6f6f6;
 }
+
+.blog-content {
+   width: 20vw;
+   margin: 1rem auto;
+}
+
 
 .blog img {
    height:15vw;
+   border-radius: .2rem;
 }
+
