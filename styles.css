@@ -20,7 +20,7 @@
 .titulo {
    padding-top: 10rem;
    font-size: 2rem;
-   color: rgb(64, 62, 62);
+   color: rgb(231, 151, 13);
 }
 
   h1 {
@@ -64,8 +64,8 @@
       font-weight: 600;
   }
   
-  .nav-itens:hover {
-      opacity: .8;
+  #menu-navegacao a:hover {
+      color:rgb(231, 151, 13);
   }
   
   
@@ -80,11 +80,12 @@
     height: calc(60vh - 2.5rem); 
     background-position: bottom right;
     text-align: center;
+    background-attachment: fixed;
 }
 
 .logo-unicamp {
     width: 5rem;
-    padding: 10rem 2rem 0rem 0rem;
+    padding: 10rem 0rem 0rem 2rem;
 }
 
 .logo-nepp {
@@ -94,7 +95,7 @@
 #chamada h1 {
     padding-top: 2rem;
     font-size: 1.7rem;
-    color: rgb(64, 62, 62);
+    color: #fff;
 }
 
  /*COMUNICADOS*/
@@ -197,7 +198,7 @@ footer {
 }
 
 .icone {
-    color: #fff;
+    color: rgb(247, 189, 87);
     margin: 2rem;
 }
 
@@ -216,7 +217,25 @@ footer p {
    letter-spacing: .1rem;
 }
 
+#contato p {
+   display: inline-block;
+   margin-bottom: 1rem;
+}
 
+#contato {
+   display:flex;
+   flex-direction: column;
+}
+
+#contato i {
+   color:rgb(247, 189, 87);
+   margin-right: .5rem;
+}
+
+#contato h3 {
+   margin-bottom: 1.5rem;
+   color:rgb(247, 174, 47);
+}
 
 /*PÁGINA INSTITUCIONAL*/
 
@@ -312,6 +331,11 @@ footer p {
    text-align: center;
    color:rgb(67, 109, 39);
    margin-bottom: 5rem;
+}
+
+#main-pesquisa h3 {
+   text-align: center;
+   color:rgb(247, 174, 47);
 }
 
 .a, .b, .c, .d {
