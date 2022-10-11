@@ -9,11 +9,11 @@
 }
   
 .box-superior {
-   background-image: linear-gradient(rgba(64, 105, 29, 0.9), rgba(138, 162, 117, 0.866)),
-    url("../img/fca-main.jpg");
+   background-image: linear-gradient(rgba(64, 105, 29, 0.9), rgba(64, 105, 29, 0.9)),
+    url("../img/multidao.jpg");
     object-fit: cover;
-    height: calc(40vh - 2.5rem); 
-    background-position: bottom right;
+    height: calc(50vh - 2.5rem); 
+    background-position: center;
     text-align: center;
 }
 
@@ -74,11 +74,11 @@
 
 
 #chamada {
-    background-image: linear-gradient(rgba(64, 105, 29, 0.9), rgba(138, 162, 117, 0.866)),
-    url("../img/fca-main.jpg");
+    background-image: linear-gradient(rgba(64, 105, 29, 0.9), rgba(64, 105, 29, 0.9)),
+    url("../img/multidao.jpg");
     object-fit: cover;
     height: calc(60vh - 2.5rem); 
-    background-position: bottom right;
+    background-position: bottom left;
     text-align: center;
     background-attachment: fixed;
 }
@@ -190,6 +190,13 @@ footer {
     background-color: rgb(86, 112, 53);
     display: flex;
     justify-content: space-around;
+    background-image: linear-gradient(rgba(64, 105, 29, 0.9), rgba(64, 105, 29, 0.9)),
+    url("../img/multidao.jpg");
+    object-fit: cover;
+    /* height: calc(60vh - 2.5rem);  */
+    background-position: top left;
+    /* text-align: center; */
+    /* background-attachment: fixed; */
 }
 
 #social {
