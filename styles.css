@@ -15,6 +15,7 @@
     height: calc(50vh - 2.5rem); 
     background-position: center;
     text-align: center;
+    background-attachment: fixed;
 }
 
 .titulo {
@@ -102,7 +103,7 @@
 
  
  .comunicados-div {
-    padding: 0rem 5rem;
+    padding: 2rem 10rem;
     display: flex;
     justify-content: space-around;
  }
@@ -110,7 +111,7 @@
  .quadros {
     max-height: 60vh;
     border: 1px solid rgb(188, 185, 185);
-    margin: 2rem 2.5rem 0rem 2.5rem;
+    margin: 2rem 3rem 0rem 3rem;
     box-shadow: 2px 2px #eeebeb;
     border-radius: 5px;
     background-color: #f6f6f6;
@@ -247,15 +248,15 @@ footer p {
 /*PÁGINA INSTITUCIONAL*/
 
 #main-institucional {
-   padding: 7rem 8rem 2rem 8rem;
+   padding: 1rem 8rem 2rem 8rem;
    font-family: Helvetica;
    background-color: #f6f6f6;
 }
 
 #main-institucional h2 {
-   color:rgba(104, 144, 68, 0.866);
+   color:rgb(204, 132, 9);
    margin-bottom: 1rem;
-   font-weight: 600;
+   font-weight: 700;
    text-align: center;
    font-family: Helvetica;
    letter-spacing: .1rem;
@@ -265,11 +266,13 @@ footer p {
    padding: 1.5rem;
    background-color: #fff;
    border-radius: 5px;
-   margin-top: 2rem;
+   max-width: 1000px;
+   margin: 1rem auto;
+   box-shadow: #eeebeb 1px 1px;   
 }
 
 .institucional-card p {
-   font-family: Helvetica;
+   color:rgb(47, 47, 47);
 }
 
 .institucional-paragrafos p {
@@ -285,7 +288,7 @@ footer p {
 }
 
 #main-equipe {
-   padding: 7rem 8rem 2rem 8rem;
+   padding: 2rem 8rem 2rem 8rem;
    font-family: Helvetica;
    background-color: #f6f6f6;
 }
@@ -300,18 +303,18 @@ footer p {
 }
 
 .main-card img {
-   width: 7rem;
+   width: 13rem;
    margin-bottom: 1rem;
    border: 1px solid rgb(197, 195, 195);
-   
 }
 
 .main-card p {
-   margin-bottom: 1rem;
+   margin: 1rem 0;
 }
 
 .main-card a {
-   color: rgb(67, 109, 39);
+   color: rgb(204, 132, 9);
+   font-weight:700;
 }
 
 .email {
@@ -320,7 +323,7 @@ footer p {
 
 #main-equipe h2 {
    text-align: center;
-   color:rgb(67, 109, 39);
+   color:rgb(204, 132, 9);
 }
 
 
