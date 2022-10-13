@@ -123,52 +123,17 @@
     width:100%;
  }
 
- 
-
- .um {
-    background-image: url("../img/fca-main.jpg");
- }
-
- .dois {
-    background-image: url("../img/Eventos/abaveMaio.png");
- }
-
- .tres {
-    background-image: url("../img/Eventos/abavePisa.jpg");
- }
-
- .quatro {
-    background-image: url("../img/Eventos/almocoGratisSite.jpg");
- }
-
- .cinco {
-    background-image: url("../img/Eventos/cartazAtlas.png");
- }
-
- .seis {
-    background-image: url("../img/Eventos/equidadeGenero.jpg");
- }
-
- .sete {
-    background-image: url("../img/Eventos/reuniãoPrefeitura.jpg");
- }
-
- .oito {
-    background-image: url("../img/Eventos/politicasEnsinoSuperior.jpg");
- }
-
- .nove {
-    background-image: url("../img/Eventos/diasporaNetworks.png");
- }
-
- 
-
  .quadros-info {
     padding: 1rem;
  }
 
  .quadros-p {
     padding-top: 1rem;
+    color:rgb(74, 71, 71);
+ }
+
+ .quadros-h3 {
+   color:rgb(221, 110, 14);
  }
 
  #comunicados-btn {
@@ -188,7 +153,6 @@
 
 footer {
     height: 30vh;
-    background-color: rgb(86, 112, 53);
     display: flex;
     justify-content: space-around;
     background-image: linear-gradient(rgba(64, 105, 29, 0.9), rgba(64, 105, 29, 0.9)),
@@ -206,7 +170,7 @@ footer {
 }
 
 .icone {
-    color: rgb(247, 189, 87);
+    color: rgb(229, 142, 66);
     margin: 2rem;
 }
 
@@ -236,13 +200,13 @@ footer p {
 }
 
 #contato i {
-   color:rgb(247, 189, 87);
+   color:rgb(229, 142, 66);
    margin-right: .5rem;
 }
 
 #contato h3 {
    margin-bottom: 1.5rem;
-   color:rgb(247, 174, 47);
+   color:rgb(229, 142, 66);
 }
 
 /*PÁGINA INSTITUCIONAL*/
@@ -331,16 +295,9 @@ footer p {
 
 
 #main-pesquisa {
-   padding: 7rem 8rem 2rem 8rem;
+   padding: 2rem 8rem 2rem 8rem;
    font-family: Helvetica;
    background-color: #f6f6f6;
-   height: 52vh;
-}
-
-#main-pesquisa h2 {
-   text-align: center;
-   color:rgb(67, 109, 39);
-   margin-bottom: 5rem;
 }
 
 #main-pesquisa h3 {
@@ -349,10 +306,10 @@ footer p {
 }
 
 .a, .b, .c, .d {
-   background-image: linear-gradient(rgba(129, 167, 96, 0.582), rgba(129, 167, 96, 0.582)),
-   url("../img/fca-main.jpg");
+   background-image: linear-gradient(rgba(64, 105, 29, 0.9), rgba(64, 105, 29, 0.9)),
+   url("../img/multidao.jpg");
    object-fit: cover;
-   background-position: bottom right;
+   background-position: center center;
    text-align: center;
 }
 
@@ -360,23 +317,49 @@ footer p {
    padding: 3rem;
    border-radius: 5px;
    margin: 2rem;
-   width: 30vw;
+   width: 40vw;
    text-align: center;
-   color: #fff;
+}
+
+.area-card {
+   padding: 1.5rem;
+   background-color: #fff;
+   border-radius: 5px;
+   max-width: 1000px;
+   margin: 2rem auto;
+   box-shadow: #eeebeb 1px 1px;   
+}
+
+.area-card h2 {
+   color:rgb(204, 132, 9);
+   margin-bottom: 2rem;
+   font-weight: 700;
+   text-align: center;
+   font-family: Helvetica;
+   letter-spacing: .1rem;
+}
+
+.area-card p {
+   color:rgb(97, 94, 94);
+   text-indent: 50px;
+   line-height: 28px;
+   text-align: justify;
+   font-size: 1.2rem;
 }
 
 /*PÁGINA PROJETOS*/
 
 #main-projetos {
-   padding: 7rem 8rem 2rem 8rem;
+   padding: 5rem 8rem 2rem 8rem;
    font-family: Helvetica;
    background-color: #f6f6f6;
 }
 
 #main-projetos h2 {
    text-align: center;
-   color:rgb(67, 109, 39);
-   margin-bottom: 5rem;
+   color:rgb(204, 132, 9);
+   margin-bottom: 3rem;
+   text-transform: uppercase;
 }
 
 .card-projetos {
@@ -389,20 +372,25 @@ footer p {
 
 .card-projetos h3 {
    color:rgb(67, 109, 39);
+   font-weight: 500;
+   letter-spacing: 1px;
 }
 
 .card-projetos h4 {
    padding-top: 2rem;
+   color:rgb(74, 71, 71);     
 }
 
 #projetos-btn {
    margin: 2rem 0rem 0rem 0rem;
-   padding: .5rem .5rem;
+   padding: .5rem .7rem;
    border-radius: 3px;
    font-family: Helvetica;
    font-weight: 500;
-   font-size: 14px;
+   font-size: 12px;
    border:rgb(188, 185, 185) 1px solid;
+   text-transform: uppercase;
+   color: rgb(82, 77, 77);
 }
 
 
