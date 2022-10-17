@@ -209,6 +209,7 @@ footer p {
    color:rgb(229, 142, 66);
 }
 
+
 /*PÁGINA INSTITUCIONAL*/
 
 #main-institucional {
@@ -394,36 +395,46 @@ footer p {
 }
 
 
-/*TESTE*/
+/*PÁGINA CONTATO*/
 
+#contato-wrap {
+   background-color:#f6f5f5;
+   padding-top: 2rem;
+}
 
-.blogs {
-   padding: 0rem 3rem;
+#contato-info {
+   width: 70vw;
+   margin: 0 auto;
+   text-align: center;
+}
+
+#contato-email {
+   max-width: 20vw;
+   margin: 2rem auto;
+   padding: 2rem;
+}
+
+#contato-phone {
+   max-width: 20vw;
+   margin: 2rem auto;
+   padding: 2rem;
+}
+
+#contato-endereco {
+   max-width: 20vw;
+   margin: 2rem auto;
+   padding: 2rem;
+}
+
+.contato-icone {
+   color: rgb(229, 142, 66);
+   margin: 1rem;
+}
+
+.contato-p {
+   color: rgb(47, 47, 47);
+   font-weight: 600;
    font-family: Helvetica;
+   letter-spacing: 1.2px;
+   line-height: 22px;
 }
-
-
-.blogs-center {
-   display: flex;
-   justify-content: space-around;
-   margin:3rem 0;
-}
-
-.blog {
-   border: lightgrey 1px solid;
-   border-radius: .2rem;
-   box-shadow: 1px 1px rgb(219, 216, 216);   
-   background-color: #f6f6f6;
-}
-
-.blog-content {
-   width: 20vw;
-   margin: 1rem auto;
-}
-
-
-.blog img {
-   height:15vw;
-   border-radius: .2rem;
-}
-
