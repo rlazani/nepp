@@ -512,7 +512,64 @@ footer p {
       width: 80%;
       margin: 2rem auto;
    }
-
   }
 
+@media (max-width: 1000px) {
 
+  #menu-navegacao {
+   background-color: rgb(235, 249, 172);
+   display: flex;
+   justify-content: center;
+   
+   opacity: .95;
+   height: 3rem;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+#menu-navegacao li {
+   list-style: none;
+   margin: 1rem 1rem;
+ }
+ 
+ #menu-navegacao a {
+     text-decoration: none;
+     list-style: none;
+     color: rgb(47, 47, 47);
+     font-weight: 600;
+     font-size: 15px;
+ }
+
+
+}
+
+
+@media (max-width: 800px) {
+
+   #menu-navegacao {
+    background-color: rgb(172, 227, 249);
+    justify-content: center;
+    height: 3rem;
+ }
+ 
+ #menu-navegacao li {
+    list-style: none;
+    margin: 1rem .5rem;
+  }
+  
+  #menu-navegacao a {
+      text-decoration: none;
+      list-style: none;
+      color: rgb(47, 47, 47);
+      font-weight: 600;
+      font-size: 14px;
+  }
+ 
+.menu-sumir {
+   display:none;
+}
+ 
+ }
