@@ -101,7 +101,6 @@
 
  /*COMUNICADOS*/
 
- 
  .comunicados-div {
     padding: 2rem 10rem;
     display: flex;
@@ -483,3 +482,37 @@ footer p {
    text-align: justify;
    font-size: 1.2rem;
 }
+
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1550px) {
+   html {
+      /* display:none; */
+      background-attachment: fixed;
+   }
+ }
+
+@media (max-width: 1500px) {
+ .comunicados-div {
+   padding: 0;
+   display: flex;
+   justify-content: space-around;
+}
+}
+
+@media (max-width: 1000px) {
+
+   .comunicados-div {
+     display: block;
+   }
+
+   .quadros {
+      width: 80%;
+      margin: 2rem auto;
+   }
+
+  }
+
+
