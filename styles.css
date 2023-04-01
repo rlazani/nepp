@@ -304,6 +304,7 @@ footer p {
 #main-equipe h2 {
    text-align: center;
    color:rgb(204, 132, 9);
+   padding: 1rem 0;
 }
 
 
@@ -383,7 +384,7 @@ footer p {
    background-color: #fff;
    border-radius: 5px;
    margin: 2rem auto;
-   width: 65vw;
+   max-width: 65vw;
 }
 
 .card-projetos h3 {
@@ -518,7 +519,7 @@ footer p {
 @media (max-width: 1000px) {
 
   #menu-navegacao {
-   background-color: rgb(235, 249, 172);
+   /*background-color: rgb(235, 249, 172);*/
    display: flex;
    justify-content: center;
    
@@ -573,8 +574,22 @@ footer p {
 }
 
 
+#main-pesquisa {
+   padding: 2rem 1.1rem; 
+}
 
 
+.a, .b, .c, .d {
+   display: none;
+}
+
+#main-projetos {
+   padding: 5rem 0rem 2rem 0rem;
+}
+
+.card-projetos {
+   max-width: 80vw;
+}
 
 
 
@@ -585,7 +600,7 @@ footer p {
 @media (max-width: 800px) {
 
    #menu-navegacao {
-    background-color: rgb(172, 227, 249);
+   /* background-color: rgb(172, 227, 249);*/
     justify-content: center;
     height: 3rem;
  }
